@@ -1,13 +1,24 @@
-#home {
+body {
   background-image: url(/admin/image/baground.jpg);
-  height: 93vh;
+  height: 100vh;
   background-size: cover;
+  background-position: center;
   background-color: rgba(0, 0, 0, 0.432);
   background-blend-mode: multiply;
 }
+
+#home{
+  height: 100%;
+}
+
 .navbar {
   background-color: #094067;
 }
+
+.instagram{
+  height: 199px !important;
+}
+
 
 #offcanvasNavbar {
   width: 30%;
