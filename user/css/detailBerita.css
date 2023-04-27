@@ -1,0 +1,150 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Sacramento&family=Work+Sans&display=swap");
+h2 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  color: #2b2c34;
+}
+p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2b2c34;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar h5 {
+    font-size: 15px;
+  }
+  #navbar img {
+    height: 40px;
+  }
+}
+
+.navbar {
+  background-color: #094067;
+}
+
+#offcanvasNavbar {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    width: 75%;
+  }
+}
+.icn-akun {
+  width: 35px;
+  height: 35px;
+}
+
+/* Setting Link */
+a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+}
+
+.logout a {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+
+/* cards */
+#biodata .card {
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(45, 41, 49, 0.352) 0 15px 30px -5px;
+  background-color: #d1d1e9;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#navbar .card {
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #d1d1e9;
+}
+
+#biodata .btn1 .btn {
+  color: #24232a;
+  background-color: #6246ea;
+}
+
+/* Navbar Togle */
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  /* The size of the SVG defines the overall size */
+  height: 2.5em;
+  /* Define the transition for transforming the SVG */
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  /* Define the transition for transforming the Stroke */
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+/* text sama rata */
+.text-justify-example {
+  text-align: justify; /* untuk meratakan teks kiri dan kanan */
+  text-justify: inter-word; /* agar teks yang dipotong di tengah kata, dipindah ke baris baru */
+}
+
+/* Tombol Back */
+.back button {
+  display: flex;
+  height: 3em;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee4b;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  border: none;
+  /* background: #6246ea; */
+  background: transparent;
+}
+
+.back button > svg {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.back button:hover > svg {
+  font-size: 1.2em;
+  transform: translateX(-5px);
+}
+
+.back button:hover {
+  transform: translateY(-2px);
+}
