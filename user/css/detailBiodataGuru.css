@@ -90,11 +90,7 @@ a {
 }
 
 #detailBiodata .image {
-  height: 13rem;
   width: 10rem;
-  border-radius: 0.5rem;
-  background-image: url(/user/image/alexander.jpg);
-  background-size: cover;
 }
 
 @media (max-width: 768px) {
