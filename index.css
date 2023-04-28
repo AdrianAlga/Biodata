@@ -7,12 +7,24 @@ body {
   background-blend-mode: multiply;
 }
 
+#login {
+  height: 100%;
+}
+
 h1 {
   font-family: "Jost";
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
-  line-height: 140px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+  }
 }
 
 /* Login */
